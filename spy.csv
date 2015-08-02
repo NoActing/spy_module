@@ -1,0 +1,5 @@
+"id","age","bestFriend/id","create_uid/id","create_date","dateOfEmployment","enemyList/id","isKilled","numberOfAssignations","write_uid/id","write_date","licenceToKill","name","isCreated","specialitiesList/id","status"
+"spy_14","37","","base.user_root","2015-07-31 11:30:40","2005-07-07","","False","2","base.user_root","2015-07-31 11:34:26","True","Bond","True","speciality_1,speciality_2,speciality_3","Alive"
+"spy_15","27","","base.user_root","2015-07-31 11:33:18","2006-06-01","spy_14","False","999","base.user_root","2015-07-31 11:33:18","False","Don","True","speciality_1,speciality_3","Alive"
+"spy_16","57","spy_15","base.user_root","2015-07-31 11:33:32","2005-11-30","spy_14","False","666","base.user_root","2015-07-31 11:33:32","False","Doctor V","True","speciality_2,speciality_3","Unknow"
+"spy_17","40",,"base.user_root","2015-07-31 11:34:18","2015-07-31","spy_15,spy_16","False","4","base.user_root","2015-07-31 11:34:18","True","Monk","True","speciality_1,speciality_2","Alive"

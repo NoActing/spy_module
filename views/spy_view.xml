@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+				<!-- Top menu -->
+				<menuitem name="Spy" 
+				id="menuRoot" 
+				sequence="110"/>
+
+				<menuitem name="Spies" 
+				id="menuGeneral" 
+				parent="menuRoot"/>
+
+				<record model="ir.actions.act_window" id="actionSpies">
+					<field name="name">Spies list</field>
+					<field name="res_model">spy</field>
+					<field name="view_mode">tree,form</field>
+				</record>
+		
+		        <!-- Action to open Spy List -->
+                <act_window id="actionSpyList"
+                name="Spies list"
+                res_model="spy"
+                view_mode="tree,form" 
+				target="current"
+                domain="[]"
+                limit="80" />
+
+                <!-- Action to opne Speciality list-->
+                <act_window id="actionSpecialityList"
+                name="speciality list"
+                res_model="speciality"
+                view_mode="tree,form" />
+				 
+                <!-- Menu Item to open Spy List -->
+                <menuitem id="menuSpy"
+                name="Spies list"
+                parent="menuGeneral"
+                sequence="20"
+                action="actionSpyList" />
+
+                <menuitem id="menuSpeciality"
+                name="Speciality"
+                parent="menuGeneral"
+                sequence="20"
+                action="actionSpecialityList" />
+				
+				<!--Spies List form view-->
+                <record id="spy_module.viewTreeSpy" model="ir.ui.view">
+                         <field name="name">Spy</field>
+                         <field name="model">spy</field>
+                                <field name="arch" type="xml">
+                                                <tree colors="red:isKilled==True"
+                                                font="italic:stage_state!='open'"
+                                                delete="true" >
+														<field name="enemyList" invisible="True"/>
+														<field name="isCreated" invisible="True" />
+														<field name="status" invisible="True"/>
+														<field name="scubaNoKnife" invisible="True" />
+                                                        <field name="isKilled" invisible="True"/>
+                                                        <field name="licenceToKill" invisible="True"/>
+                                                        <field name="numberOfAssignations" invisible="True"/>
+                                                        <field name="name"/>
+                                                        <field name="age"/>
+                                                        <field name="dateOfEmployment"/>
+                                                        <button name="doKill" type="object" string="Kill the spy" confirm="Give the order" class="spy"/>
+                                                 </tree>
+                                </field>
+                </record>
+                <!-- Specialties from virw -->
+                 <record id="spy_module.viewTreeSpeciality" model="ir.ui.view">
+                         <field name="name">Speciality</field>
+                         <field name="model">speciality</field>
+                                <field name="arch" type="xml">
+                                            <tree font="italic:stage_state!='open'"
+                                                delete="true" >
+                                                        <field name="specialityName"/>
+                                            </tree>
+                                </field>
+                </record>
+
+                <!-- Spy Form view -->
+                <record id="viewFormSpy" model="ir.ui.view">
+                        <field name="name">Spy</field>
+                        <field name="model">spy</field>
+                        <field name="arch" type="xml">
+							<form>
+										<header>
+											<button name="doKill2KillsNoLicencce" type="object" string="Kill the spis that have 2 kills without licence to kill" confirm="Give the order" class="spy"/>
+										</header>
+                                        <sheet>
+                                                <group name="groupTop">
+                                                        <group name="groupLeft">
+                                                                <field name="name" attrs="{'readonly': [('isCreated','=',True)]}"/>
+																<field name="status"/>
+                                                                <field name="numberOfAssignations"/>
+																<button name="addOneKill" type="object" string="+1" class="spy" />
+																<field name="isCreated" invisible="True"/>
+                                                        </group>
+                                                        <group name="groupRight">"
+                                                                <field name="age"/>
+                                                                <field name="licenceToKill"/>
+                                                                <field name="dateOfEmployment" attrs="{'readonly': [('isCreated','=',True)]}"/>
+                                                                <field name="isKilled" readonly="True"/>
+                                                       </group>
+                                                </group>
+                                                <group name="groupMidle">
+                                                        <tree font="italic:stage_state!='open'"
+                                                         delete="true">
+                                                                        <field name="specialitiesList" />
+                                                        </tree>
+                                                </group>
+												<group name="groupBottom">
+													<group name="groupRight">
+														<tree font="italic:stage_state!='open'"
+                                                         delete="true">
+																<field name="enemyList"/>
+														</tree>
+													</group>
+													<group name="groupLeft">
+														<tree font="italic:stage_state!='open'"
+                                                         delete="true">
+																<field name="bestFriend"/>
+														</tree>
+													</group>
+												</group>
+                                        </sheet>
+                                </form>
+
+                        </field>
+                </record>
+				
+                <!-- Speciality selection Form -->
+                <record id="viewFormSpeciality" model="ir.ui.view">
+                        <field name="name">Speciality creation</field>
+                        <field name="model">speciality</field>
+                        <field name="arch" type="xml">
+                                <form>
+                                        <sheet>
+                                                <group name="groupTop">
+                                                           <field name="specialityName"/>
+                                                </group>
+                                        </sheet>
+                                </form>
+                        </field>
+                </record>
+				
+                <!-- Spy search filters-->
+                <record id="spy_module.viewFilterSpy" model="ir.ui.view">
+                        <field name="name">Spy Filter</field>
+                        <field name="model">spy</field>
+                        <field name="arch" type="xml">
+                                <search>
+                                        <filter name="spyBond" string="Bond" domain="[('name', 'ilike','bond')]"/>
+										
+										<filter name="spySpes" string="knife-throwing and psychological manipulation"
+										domain ="[('specialitiesList.specialityName', 'ilike', 'knife-throwing'),
+										('specialitiesList.specialityName', 'ilike', 'psychological manipulation')]"/>
+										
+										<filter name="spyScubaNoKnife" string="Scuba diving without knife-throwing"
+										domain="[('scubaNoKnife', '=', True)]"/>
+										
+										<filter name="spy_era" string="end of 2005" 
+										domain="[('dateOfEmployment', '&lt;=', '12/18/2005'),
+										('dateOfEmployment', '&gt;=' , '10/21/2005')]"/>
+								</search>
+                        </field>
+                </record>
+    </data>
+</openerp>

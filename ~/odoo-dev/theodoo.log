@@ -1,0 +1,250 @@
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp.workflow.workitem:WARNING"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp.http.rpc.request:INFO"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp.http.rpc.response:INFO"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp.addons.web.http:INFO"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp.sql_db:INFO"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: ":INFO"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: "openerp:DEBUG"
+2015-07-27 15:20:36,389 21212 DEBUG ? openerp.netsvc: logger level set: ":INFO"
+2015-07-27 15:20:36,390 21212 INFO ? openerp: OpenERP version 8.0
+2015-07-27 15:20:36,390 21212 INFO ? openerp: addons paths: ['/home/odoo/.local/share/Odoo/addons/8.0', u'/home/odoo/odoo-dev/custom-addons', u'/home/odoo/odoo-dev/odoo/addons', '/home/odoo/odoo-dev/odoo/openerp/addons']
+2015-07-27 15:20:36,390 21212 INFO ? openerp: database hostname: localhost
+2015-07-27 15:20:36,390 21212 INFO ? openerp: database port: 5432
+2015-07-27 15:20:36,390 21212 INFO ? openerp: database user: odoo
+2015-07-27 15:20:36,486 21212 DEBUG ? openerp.service.server: Setting signal handlers
+2015-07-27 15:20:36,487 21212 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2015-07-27 15:20:36,489 21212 DEBUG ? openerp.service.server: cron0 started!
+2015-07-27 15:20:36,489 21212 DEBUG ? openerp.service.server: cron1 started!
+2015-07-27 15:20:36,497 21212 INFO v8dev openerp.modules.loading: loading 1 modules...
+2015-07-27 15:20:36,506 21212 INFO v8dev openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2015-07-27 15:20:37,656 21212 DEBUG v8dev openerp.http: Loading account
+2015-07-27 15:20:37,661 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Profit & Loss (Income account)'", skipped
+2015-07-27 15:20:37,661 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Profit & Loss (Expense account)'", skipped
+2015-07-27 15:20:37,661 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Balance Sheet (Asset account)'", skipped
+2015-07-27 15:20:37,661 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Balance Sheet (Liability account)'", skipped
+2015-07-27 15:20:37,697 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Write-off'", skipped
+2015-07-27 15:20:37,722 21212 DEBUG v8dev openerp.http: Loading account_accountant
+2015-07-27 15:20:37,722 21212 DEBUG v8dev openerp.http: Loading account_analytic_analysis
+2015-07-27 15:20:37,726 21212 DEBUG v8dev openerp.http: Loading account_analytic_plans
+2015-07-27 15:20:37,731 21212 DEBUG v8dev openerp.http: Loading account_asset
+2015-07-27 15:20:37,736 21212 DEBUG v8dev openerp.http: Loading account_voucher
+2015-07-27 15:20:37,738 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Write-Off'", skipped
+2015-07-27 15:20:37,742 21212 DEBUG v8dev openerp.http: Loading auth_openid
+2015-07-27 15:20:37,762 21212 DEBUG v8dev openerp.http: Loading base_import
+2015-07-27 15:20:37,765 21212 DEBUG v8dev openerp.http: Loading base_report_designer
+2015-07-27 15:20:37,766 21212 DEBUG v8dev openerp.http: Loading base_setup
+2015-07-27 15:20:37,768 21212 DEBUG v8dev openerp.http: Loading board
+2015-07-27 15:20:37,769 21212 DEBUG v8dev openerp.http: Loading bus
+2015-07-27 15:20:37,770 21212 DEBUG v8dev openerp.http: Loading calendar
+2015-07-27 15:20:37,777 21212 INFO ? openerp.addons.bus.bus: Bus.loop listen imbus on db postgres
+2015-07-27 15:20:37,781 21212 DEBUG v8dev openerp.http: Loading contacts
+2015-07-27 15:20:37,782 21212 DEBUG v8dev openerp.http: Loading crm
+2015-07-27 15:20:37,785 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Leads / Opportunities'", skipped
+2015-07-27 15:20:37,800 21212 DEBUG v8dev openerp.http: Loading delivery
+2015-07-27 15:20:37,804 21212 DEBUG v8dev openerp.http: Loading document
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.TxtIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.PptxIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.DocIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.DocxIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.XlsxIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.PdfIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.ImageNoIndex>.
+2015-07-27 15:20:37,805 21212 DEBUG v8dev openerp.addons.document.content_index: Register content indexer: <indexer openerp.addons.document.std_index.OpenDoc>.
+2015-07-27 15:20:37,811 21212 DEBUG v8dev openerp.http: Loading edi
+2015-07-27 15:20:37,811 21212 DEBUG v8dev openerp.http: Loading email_template
+2015-07-27 15:20:37,816 21212 DEBUG v8dev openerp.http: Loading event
+2015-07-27 15:20:37,818 21212 DEBUG v8dev openerp.http: Loading event_sale
+2015-07-27 15:20:37,820 21212 DEBUG v8dev openerp.http: Loading fleet
+2015-07-27 15:20:37,821 21212 DEBUG v8dev openerp.osv.fields: required=True is deprecated: making a boolean field `required` has no effect, as NULL values are automatically turned into False. args: {'readonly': True}
+2015-07-27 15:20:37,827 21212 DEBUG v8dev openerp.http: Loading gamification
+2015-07-27 15:20:37,836 21212 DEBUG v8dev openerp.http: Loading google_calendar
+2015-07-27 15:20:37,839 21212 DEBUG v8dev openerp.http: Loading google_drive
+2015-07-27 15:20:37,842 21212 DEBUG v8dev openerp.http: Loading google_spreadsheet
+2015-07-27 15:20:37,843 21212 DEBUG v8dev openerp.http: Loading hr
+2015-07-27 15:20:37,848 21212 DEBUG v8dev openerp.http: Loading hr_attendance
+2015-07-27 15:20:37,850 21212 DEBUG v8dev openerp.http: Loading hr_evaluation
+2015-07-27 15:20:37,851 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Regarding '", skipped
+2015-07-27 15:20:37,854 21212 DEBUG v8dev openerp.http: Loading hr_expense
+2015-07-27 15:20:37,857 21212 DEBUG v8dev openerp.http: Loading hr_gamification
+2015-07-27 15:20:37,859 21212 DEBUG v8dev openerp.http: Loading hr_holidays
+2015-07-27 15:20:37,863 21212 DEBUG v8dev openerp.http: Loading hr_payroll
+2015-07-27 15:20:37,871 21212 DEBUG v8dev openerp.http: Loading hr_recruitment
+2015-07-27 15:20:37,872 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Applicants'", skipped
+2015-07-27 15:20:37,879 21212 DEBUG v8dev openerp.http: Loading hr_timesheet_sheet
+2015-07-27 15:20:37,884 21212 DEBUG v8dev openerp.http: Loading hw_proxy
+2015-07-27 15:20:37,885 21212 DEBUG v8dev openerp.http: Loading im_chat
+2015-07-27 15:20:37,887 21212 DEBUG v8dev openerp.http: Loading im_livechat
+2015-07-27 15:20:37,889 21212 DEBUG v8dev openerp.http: Loading im_odoo_support
+2015-07-27 15:20:37,889 21212 DEBUG v8dev openerp.http: Loading knowledge
+2015-07-27 15:20:37,890 21212 DEBUG v8dev openerp.http: Loading l10n_ae
+2015-07-27 15:20:37,890 21212 DEBUG v8dev openerp.http: Loading l10n_ar
+2015-07-27 15:20:37,890 21212 DEBUG v8dev openerp.http: Loading l10n_at
+2015-07-27 15:20:37,891 21212 DEBUG v8dev openerp.http: Loading l10n_be
+2015-07-27 15:20:37,893 21212 DEBUG v8dev openerp.http: Loading l10n_be_hr_payroll
+2015-07-27 15:20:37,895 21212 DEBUG v8dev openerp.http: Loading l10n_be_hr_payroll_account
+2015-07-27 15:20:37,895 21212 DEBUG v8dev openerp.http: Loading l10n_bo
+2015-07-27 15:20:37,895 21212 DEBUG v8dev openerp.http: Loading l10n_br
+2015-07-27 15:20:37,896 21212 DEBUG v8dev openerp.http: Loading l10n_ca
+2015-07-27 15:20:37,897 21212 DEBUG v8dev openerp.http: Loading l10n_ch
+2015-07-27 15:20:37,897 21212 DEBUG v8dev openerp.http: Loading l10n_cl
+2015-07-27 15:20:37,898 21212 DEBUG v8dev openerp.http: Loading l10n_cn
+2015-07-27 15:20:37,898 21212 DEBUG v8dev openerp.http: Loading l10n_co
+2015-07-27 15:20:37,898 21212 DEBUG v8dev openerp.http: Loading l10n_cr
+2015-07-27 15:20:37,898 21212 DEBUG v8dev openerp.http: Loading l10n_de
+2015-07-27 15:20:37,899 21212 DEBUG v8dev openerp.http: Loading l10n_do
+2015-07-27 15:20:37,899 21212 DEBUG v8dev openerp.http: Loading l10n_ec
+2015-07-27 15:20:37,899 21212 DEBUG v8dev openerp.http: Loading l10n_es
+2015-07-27 15:20:37,900 21212 DEBUG v8dev openerp.http: Loading l10n_et
+2015-07-27 15:20:37,900 21212 DEBUG v8dev openerp.http: Loading l10n_fr
+2015-07-27 15:20:37,902 21212 DEBUG v8dev openerp.http: Loading l10n_gr
+2015-07-27 15:20:37,903 21212 DEBUG v8dev openerp.http: Loading l10n_gt
+2015-07-27 15:20:37,903 21212 DEBUG v8dev openerp.http: Loading l10n_hn
+2015-07-27 15:20:37,903 21212 DEBUG v8dev openerp.http: Loading l10n_hr
+2015-07-27 15:20:37,904 21212 DEBUG v8dev openerp.http: Loading l10n_hu
+2015-07-27 15:20:37,904 21212 DEBUG v8dev openerp.http: Loading l10n_in
+2015-07-27 15:20:37,904 21212 DEBUG v8dev openerp.http: Loading l10n_in_hr_payroll
+2015-07-27 15:20:37,910 21212 DEBUG v8dev openerp.http: Loading l10n_it
+2015-07-27 15:20:37,910 21212 DEBUG v8dev openerp.http: Loading l10n_jp
+2015-07-27 15:20:37,910 21212 DEBUG v8dev openerp.http: Loading l10n_lu
+2015-07-27 15:20:37,911 21212 DEBUG v8dev openerp.http: Loading l10n_ma
+2015-07-27 15:20:37,911 21212 DEBUG v8dev openerp.http: Loading l10n_mx
+2015-07-27 15:20:37,912 21212 DEBUG v8dev openerp.http: Loading l10n_nl
+2015-07-27 15:20:37,912 21212 DEBUG v8dev openerp.http: Loading l10n_no
+2015-07-27 15:20:37,912 21212 DEBUG v8dev openerp.http: Loading l10n_pa
+2015-07-27 15:20:37,913 21212 DEBUG v8dev openerp.http: Loading l10n_pe
+2015-07-27 15:20:37,913 21212 DEBUG v8dev openerp.http: Loading l10n_pl
+2015-07-27 15:20:37,913 21212 DEBUG v8dev openerp.http: Loading l10n_ro
+2015-07-27 15:20:37,914 21212 DEBUG v8dev openerp.http: Loading l10n_sg
+2015-07-27 15:20:37,914 21212 DEBUG v8dev openerp.http: Loading l10n_si
+2015-07-27 15:20:37,915 21212 DEBUG v8dev openerp.http: Loading l10n_th
+2015-07-27 15:20:37,915 21212 DEBUG v8dev openerp.http: Loading l10n_tr
+2015-07-27 15:20:37,915 21212 DEBUG v8dev openerp.http: Loading l10n_uk
+2015-07-27 15:20:37,915 21212 DEBUG v8dev openerp.http: Loading l10n_us
+2015-07-27 15:20:37,916 21212 DEBUG v8dev openerp.http: Loading l10n_uy
+2015-07-27 15:20:37,916 21212 DEBUG v8dev openerp.http: Loading l10n_ve
+2015-07-27 15:20:37,916 21212 DEBUG v8dev openerp.http: Loading l10n_vn
+2015-07-27 15:20:37,917 21212 DEBUG v8dev openerp.http: Loading lunch
+2015-07-27 15:20:37,922 21212 DEBUG v8dev openerp.http: Loading mail
+2015-07-27 15:20:37,932 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Customers'", skipped
+2015-07-27 15:20:37,936 21212 DEBUG v8dev openerp.http: Loading mass_mailing
+2015-07-27 15:20:37,943 21212 DEBUG v8dev openerp.http: Loading membership
+2015-07-27 15:20:37,947 21212 DEBUG v8dev openerp.http: Loading mrp
+2015-07-27 15:20:37,973 21212 DEBUG v8dev openerp.http: Loading note
+2015-07-27 15:20:37,975 21212 DEBUG v8dev openerp.http: Loading pad
+2015-07-27 15:20:37,976 21212 DEBUG v8dev openerp.http: Loading payment
+2015-07-27 15:20:38,021 21212 DEBUG v8dev openerp.http: Loading payment_adyen
+2015-07-27 15:20:38,022 21212 DEBUG v8dev openerp.http: Loading payment_authorize
+2015-07-27 15:20:38,023 21212 DEBUG v8dev openerp.http: Loading payment_buckaroo
+2015-07-27 15:20:38,024 21212 DEBUG v8dev openerp.http: Loading payment_ogone
+2015-07-27 15:20:38,028 21212 DEBUG v8dev openerp.http: Loading payment_paypal
+2015-07-27 15:20:38,030 21212 DEBUG v8dev openerp.http: Loading payment_sips
+2015-07-27 15:20:38,031 21212 DEBUG v8dev openerp.http: Loading payment_transfer
+2015-07-27 15:20:38,032 21212 DEBUG v8dev openerp.http: Loading point_of_sale
+2015-07-27 15:20:38,046 21212 DEBUG v8dev openerp.http: Loading portal
+2015-07-27 15:20:38,047 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Your Odoo account at %(company)s'", skipped
+2015-07-27 15:20:38,047 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for ""Dear %(name)s,\n\nYou have been given access to %(company)s's %(portal)s.\n\nYour login account data is:\n  Username: %(login)s\n  Portal: %(portal_url)s\n  Database: %(db)s \n\nYou can set or change your password via the following url:\n   %(signup_url)s\n\n%(welcome_message)s\n\n--\nOdoo - Open Source Business Applications\nhttp://www.openerp.com\n"", skipped
+2015-07-27 15:20:38,049 21212 DEBUG v8dev openerp.http: Loading portal_project_issue
+2015-07-27 15:20:38,049 21212 DEBUG v8dev openerp.http: Loading pos_discount
+2015-07-27 15:20:38,050 21212 DEBUG v8dev openerp.http: Loading pos_restaurant
+2015-07-27 15:20:38,051 21212 DEBUG v8dev openerp.http: Loading product
+2015-07-27 15:20:38,051 21212 DEBUG v8dev openerp.http: Loading product_email_template
+2015-07-27 15:20:38,052 21212 DEBUG v8dev openerp.http: Loading product_expiry
+2015-07-27 15:20:38,053 21212 DEBUG v8dev openerp.http: Loading project
+2015-07-27 15:20:38,070 21212 DEBUG v8dev openerp.http: Loading project_issue
+2015-07-27 15:20:38,075 21212 DEBUG v8dev openerp.http: Loading project_timesheet
+2015-07-27 15:20:38,077 21212 DEBUG v8dev openerp.http: Loading purchase
+2015-07-27 15:20:38,088 21212 DEBUG v8dev openerp.http: Loading purchase_requisition
+2015-07-27 15:20:38,091 21212 DEBUG v8dev openerp.http: Loading report
+2015-07-27 15:20:38,095 21212 INFO v8dev openerp.addons.report.models.report: You need Wkhtmltopdf to print a pdf version of the reports.
+2015-07-27 15:20:38,097 21212 DEBUG v8dev openerp.http: Loading sale
+2015-07-27 15:20:38,108 21212 DEBUG v8dev openerp.http: Loading sales_team
+2015-07-27 15:20:38,109 21212 DEBUG v8dev openerp.http: Loading share
+2015-07-27 15:20:38,113 21212 DEBUG v8dev openerp.http: Loading stock
+2015-07-27 15:20:38,143 21212 DEBUG v8dev openerp.http: Loading survey
+2015-07-27 15:20:38,161 21212 DEBUG v8dev openerp.http: Loading web
+2015-07-27 15:20:38,161 21212 DEBUG v8dev openerp.http: Loading web_analytics
+2015-07-27 15:20:38,162 21212 DEBUG v8dev openerp.http: Loading web_api
+2015-07-27 15:20:38,162 21212 DEBUG v8dev openerp.http: Loading web_calendar
+2015-07-27 15:20:38,162 21212 DEBUG v8dev openerp.http: Loading web_diagram
+2015-07-27 15:20:38,163 21212 DEBUG v8dev openerp.http: Loading web_gantt
+2015-07-27 15:20:38,163 21212 DEBUG v8dev openerp.http: Loading web_graph
+2015-07-27 15:20:38,163 21212 DEBUG v8dev openerp.http: Loading web_kanban
+2015-07-27 15:20:38,163 21212 DEBUG v8dev openerp.http: Loading web_kanban_gauge
+2015-07-27 15:20:38,164 21212 DEBUG v8dev openerp.http: Loading web_kanban_sparkline
+2015-07-27 15:20:38,164 21212 DEBUG v8dev openerp.http: Loading web_linkedin
+2015-07-27 15:20:38,165 21212 DEBUG v8dev openerp.http: Loading web_tests
+2015-07-27 15:20:38,165 21212 DEBUG v8dev openerp.http: Loading web_tests_demo
+2015-07-27 15:20:38,166 21212 DEBUG v8dev openerp.http: Loading web_view_editor
+2015-07-27 15:20:38,166 21212 DEBUG v8dev openerp.http: Loading website
+2015-07-27 15:20:38,166 21212 DEBUG v8dev openerp.http: Loading website_blog
+2015-07-27 15:20:38,168 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Blog Post Title'", skipped
+2015-07-27 15:20:38,168 21212 DEBUG v8dev openerp.tools.translate: translation went wrong for "'Subtitle'", skipped
+2015-07-27 15:20:38,171 21212 DEBUG v8dev openerp.http: Loading website_crm
+2015-07-27 15:20:38,171 21212 DEBUG v8dev openerp.http: Loading website_event
+2015-07-27 15:20:38,173 21212 DEBUG v8dev openerp.http: Loading website_event_sale
+2015-07-27 15:20:38,178 21212 DEBUG v8dev openerp.http: Loading website_event_track
+2015-07-27 15:20:38,181 21212 DEBUG v8dev openerp.http: Loading website_forum
+2015-07-27 15:20:38,189 21212 DEBUG v8dev openerp.http: Loading website_forum_doc
+2015-07-27 15:20:38,191 21212 DEBUG v8dev openerp.http: Loading website_gengo
+2015-07-27 15:20:38,191 21212 DEBUG v8dev openerp.http: Loading website_google_map
+2015-07-27 15:20:38,192 21212 DEBUG v8dev openerp.http: Loading website_hr_recruitment
+2015-07-27 15:20:38,193 21212 DEBUG v8dev openerp.http: Loading website_instantclick
+2015-07-27 15:20:38,193 21212 DEBUG v8dev openerp.http: Loading website_mail
+2015-07-27 15:20:38,194 21212 DEBUG v8dev openerp.http: Loading website_mail_group
+2015-07-27 15:20:38,195 21212 DEBUG v8dev openerp.http: Loading website_payment
+2015-07-27 15:20:38,196 21212 DEBUG v8dev openerp.http: Loading website_quote
+2015-07-27 15:20:38,199 21212 DEBUG v8dev openerp.http: Loading website_sale
+2015-07-27 15:20:38,200 21212 DEBUG v8dev openerp.http: Loading website_sale_delivery
+2015-07-27 15:20:38,201 21212 DEBUG v8dev openerp.http: Loading website_sale_options
+2015-07-27 15:20:38,202 21212 DEBUG v8dev openerp.http: Loading website_twitter
+2015-07-27 15:20:38,204 21212 DEBUG v8dev openerp.http: Loading base
+2015-07-27 15:20:38,204 21212 INFO v8dev openerp.http: HTTP Configuring static files
+2015-07-27 15:20:38,375 21212 DEBUG v8dev openerp.tools.translate: no translation language detected, skipping translation for "'Install'" 
+2015-07-27 15:20:38,375 21212 DEBUG v8dev openerp.tools.translate: no translation language detected, skipping translation for "'Apply Schedule Upgrade'" 
+2015-07-27 15:20:38,395 21212 DEBUG v8dev openerp.modules.loading: Updating graph with 42 more modules
+2015-07-27 15:20:38,399 21212 INFO v8dev openerp.modules.loading: loading 43 modules...
+2015-07-27 15:20:38,403 21212 INFO v8dev passlib.registry: registered crypt handler 'pbkdf2_sha512': <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+2015-07-27 15:20:38,403 21212 INFO v8dev passlib.registry: registered crypt handler 'md5_crypt': <class 'passlib.handlers.md5_crypt.md5_crypt'>
+2015-07-27 15:20:38,589 21212 INFO v8dev openerp.modules.module: module spy_module: creating or updating database tables
+2015-07-27 15:20:38,622 21212 INFO v8dev openerp.modules.loading: loading spy_module/views/menu.xml
+2015-07-27 15:20:38,835 21212 INFO v8dev openerp.modules.loading: 43 modules loaded in 0.44s, 0 queries
+2015-07-27 15:20:39,556 21212 WARNING v8dev openerp.modules.loading: The model spy has no access rules, consider adding one. E.g. access_spy,access_spy,model_spy,,1,0,0,0
+2015-07-27 15:20:39,556 21212 WARNING v8dev openerp.modules.loading: The model speciality has no access rules, consider adding one. E.g. access_speciality,access_speciality,model_speciality,,1,0,0,0
+2015-07-27 15:20:39,586 21212 DEBUG v8dev openerp.models: column web is in the table ir_module_module but not in the corresponding object ir.module.module
+2015-07-27 15:20:39,855 21212 INFO v8dev openerp.modules.loading: Modules loaded.
+2015-07-27 15:20:41,317 21212 DEBUG ? openerp.http: HTTP sessions stored in: /home/odoo/.local/share/Odoo/sessions
+2015-07-27 15:20:41,318 21212 INFO v8dev openerp.addons.base.ir.ir_http: Generating routing map
+2015-07-27 15:20:41,575 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/action/load HTTP/1.1" 200 -
+2015-07-27 15:20:41,729 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:41,733 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:41,818 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2015-07-27 15:20:41,854 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/dataset/call_kw/spy/fields_get HTTP/1.1" 200 -
+2015-07-27 15:20:41,934 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:41] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:42,123 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:44,041 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:44] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:44,158 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:51,620 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:51] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:51,723 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:52,529 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:52] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:52,633 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:52] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:53,259 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:53] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:53,376 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:53] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:56,117 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:56] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:56,221 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:57,129 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:57] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:57,242 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:57] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:58,036 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:58] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:58,148 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:20:58,750 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:58] "POST /web/dataset/call_kw/spy/fields_view_get HTTP/1.1" 200 -
+2015-07-27 15:20:58,853 21212 INFO v8dev werkzeug: 87.104.178.145 - - [27/Jul/2015 15:20:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2015-07-27 15:21:02,239 21212 INFO v8dev openerp.service.server: Initiating shutdown
+2015-07-27 15:21:02,240 21212 INFO v8dev openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: current thread: <_MainThread(MainThread, started 139956057691968)>
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <_MainThread(MainThread, started 139956057691968)> (False)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.longpolling.request.139955549943552, started daemon 139955549943552)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.longpolling.request.139955326150400, started daemon 139955326150400)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.addons.bus.bus.Bus, started daemon 139955590391552)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.service.cron.cron0, started daemon 139955828258560)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.longpolling.request.139955334543104, started daemon 139955334543104)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: process <Thread(openerp.service.cron.cron1, started daemon 139955817744128)> (True)
+2015-07-27 15:21:02,312 21212 DEBUG v8dev openerp.service.server: --

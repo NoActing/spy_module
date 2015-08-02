@@ -1,0 +1,36 @@
+#-*- coding: utf-8 -*-
+from openerp import models, fields, api
+
+class spy(models.Model):
+            _name = 'spy'
+            _description= 'Spy description'
+
+            isKilled = fields.Boolean('Killed?')
+            licenceToKill= fields.Boolean('Licence to kill:', default=False)
+
+            #Spy
+            name= fields.Char('Name', required= True)
+            age= fields.Integer('Age', required= True)
+            numberOfAssignations= fields.Integer('Kills')
+
+            #date of employment
+            dateOfEmployment = fields.Date('Date of employment', required= True)
+
+            #list of specialities
+            specialitiesList = fields.One2many('speciality', 'partner_id','specialityName')
+
+            #api
+            @api.multi
+            def doKillAll(self):
+			domain = [('id', '=', self.id)]
+			done_recs = self.search(domain)
+			done_recs.write({'isKilled': True})
+			done_recs.unlink()
+			return True
+            
+class speciality(models.Model):
+                _name = 'speciality'
+                _description = 'a pursuit, area of study, or skill to which someone has devoted much time and effort and in which they are expert.'
+
+                partner_id = fields.Integer()
+                specialityName = fields.Char('Speciality', required = True)

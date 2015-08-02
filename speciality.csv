@@ -1,0 +1,4 @@
+"id","create_uid/id","create_date","write_uid/id","write_date","specialityName","speciality_ids"
+"speciality_1","base.user_root","2015-07-31 11:29:41","base.user_root","2015-07-31 11:29:41","knife-throwing",""
+"speciality_2","base.user_root","2015-07-31 11:30:15","base.user_root","2015-07-31 11:30:15","scuba diving",""
+"speciality_3","base.user_root","2015-07-31 11:30:19","base.user_root","2015-07-31 11:30:19","psychological manipulation",""
